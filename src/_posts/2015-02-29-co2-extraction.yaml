@@ -1,0 +1,43 @@
+---
+layout: news-post
+title: CO2 Extraction
+excerpt: Cannabis extract medicine has been used for generations to help treat a variety of conditions, and its popularity has increased...
+
+images:
+
+  - url: /img/bhang-news-1.jpg
+    alt: Cypripedium Calceolum
+    title: Cypripedium Calceolum
+
+  - url: /img/hello-bumblebee.jpg
+    alt: Hello bumblebee !
+    title: Hello bumblebee !
+---
+
+{% assign image = page.images[0] %}
+{% include image.html image=image %}
+
+{% include blog-post-title.html %}
+
+<p class="blogPostText">Cannabis extract medicine has been used for generations to help treat a variety of conditions, and its popularity has increased quite a bit in recent years. Much of this increased popularity can be traced to Rick Simpson‘s public campaign in favor of what he referred to as “hemp oil.”</p>
+
+<p class="blogPostText">Last year, a group of researchers from the University of Siena (Italy) and Leiden University (Netherlands) completed a study last year with some of the most commonly used extraction solvents to see how they stack up. Their results were published in the journal Cannabinoids.</p>
+
+<h4>Cannabis Extraction Solvents Discussed By Caregivers, Researchers</h3>
+
+<p class="blogPostText">As previously reported, Rick advocated for the use of naphtha or petroleum ether – a fact for which he has taken criticism. The argument being made is not that these substances are ineffective as solvents, but that it creates an unnecessary danger for patients.</p>
+
+<p class="blogPostText">As noted by, Dr. Luigi L. Romano, lead author of the European study, naphtha and petroleum ether are mixtures of various hydrocarbons (benzene, hexane, etc.). He goes on to explain, “they are each considered cancer hazards according to their respective Material Safety Data Sheets (MSDS) provided by manufacturers.”</p>
+
+<p class="blogPostText">There are a number of alternative extraction methods that have gained popularity in recent years – some intended for inhalation (butane, CO2, propane, etc), and others geared toward oral ingestion (ethanol, olive oil, coconut oil, etc.). It should come as no surprise that each substance reacts differently when used as a solvent, and the final product can be greatly affected by the process used to extract the highly coveted cannabis oil.</p>
+
+<h4>Researchers Test Efficacy Of Various Cannabis Extract Solvents</h3>
+
+<p class="blogPostText">With this in mind, the European research team investigated the effectiveness of four extraction solvents – naphtha, petroleum ether, ethanol and olive oil. They performed a total of five extractions, including two slightly different methods of olive oil extraction. Lab test results from each final product were then analyzed for their respective cannabinoid and terpene content.</p>
+
+<p class="blogPostText">Of the solvents used, naphtha showed the most significant difference. Naphtha-based cannabis oil displayed a lower concentration of terpenes and a much higher percentage of decarboxylated tetrahydrocannabinol (THC) compared to the other extracts.</p>
+
+<p class="blogPostText">On the other hand, ethanol and olive oil were determined to be the most effective, largely because of their ability to produce an extract with a high terpene content. Perhaps more importantly, both substances are safe for consumption.</p>
+
+<p class="blogPostText">Many developments are being made in the realm of cannabis oil and a movement is underway to end the use of harmful solvents like naphtha in the case of medical marijuana patients. In fact, a Colorado-based concentrate company named OG recently released a line of capsules filled with solventless RSO and patients have reported broad spectrum benefits.</p>
+

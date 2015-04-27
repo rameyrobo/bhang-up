@@ -1,0 +1,33 @@
+---
+layout: news-post
+title: San Francisco Hemp Con 2015
+excerpt: How could we not! We are so excited to be attending the city by the bay’s renowned Hemp Con. With over 300 exhibitors...
+
+images:
+  - url: /assets/images/hempcon-thumb.jpg
+    alt: Bhang at the Hemp Con 2015
+    title: Bhang at the Hemp Con 2015
+  - url: /assets/images/hempcon.jpg
+    alt: Hemp Con 2015
+    title: Hemp Con 2015
+  
+---
+
+
+
+{% assign image = page.images[0] %}
+{% include image.html image=image %}
+
+{% include blog-post-title.html %}
+
+<p class="blogPostText">
+
+How could we not! We are so excited to be attending the city by the bay’s renowned Hemp Con. With over 300 exhibitors, experts, and collectives in attendance this weekend you can bet there will be static in the air raising hairs on the expected 50,000 visitors. Our booth will be ‘Bhangin’ with samples, swag, and giveaways while showcasing our entire line of products. And of course you can expect us competing in categories such as Best Concentrate, Best CBD Product, and Best Edible. </p>
+</p>
+<p class="blogPostText"> Performances include: Baby Bash, Paul Wall, Too $hort, and DJ Rick Lee!</p>
+</p>
+<p class="blogPostText">Make sure to come out and support Bhang as we celebrate the 420 weekend in style and flair. See you there! </p>
+</p>
+<p class="blotPostText">
+<a href="http://www.hempcon.com">www.hempcon.com</a>
+</p>

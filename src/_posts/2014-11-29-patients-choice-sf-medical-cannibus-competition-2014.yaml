@@ -1,0 +1,41 @@
+---
+layout: news-post 
+title: Patient's Choice 2014
+excerpt: You could really feel the excitement from the patients attending the 2014 Medical Cannabis Competition in San Francisco...
+
+images:
+
+ - url: /img/2014patientschoice.jpg
+   alt: Bhang at the 2014 Patients' Choice
+   title: Bhang at the 2014 Patients' Choice
+---
+
+{% assign image = page.images[0] %}
+{% include image.html image=image %}
+
+{% include blog-post-title.html %}
+
+<p class="blogPostText">
+
+
+
+
+
+You could really feel the excitement from the patients attending the 2014 Medical Cannabis Competition in San Francisco, CA.  We loved supporting this event because not only do all proceeds raised benefit the proactive agenda of California NORML (canorml.org) this year, but it is such a unique venue that allows us to welcome our neighbors in the Bay Area. 
+</p>
+<p class="blogPostText">
+While the event is for the benefit of the patients, our excitement grew as they announced the winners with our name again in the rankings! 
+</p>
+<p class="blogPostText">
+Honored in two categories, Bhang received recognition for both 
+</p>
+<p class="blogPostText">
+BEST MEDICAL CANNABIS CONCENTRATE 
+3rd Place – Bhang Black Berry OG
+</p>
+<p class="blogPostText">
+BEST MEDICAL CANNABIS EDIBLE
+1st Place – Bhang Chocolate Triple Strength Cherries & Cream
+</p>
+<p class="blogPostText">
+Delight, exhilaration, and satisfaction are only few of the emotions felt to deliver great products to our patients everywhere! For more information on our oil concentrates and edibles, please visit our Products page. </p>

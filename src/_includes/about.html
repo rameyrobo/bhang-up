@@ -1,0 +1,155 @@
+
+    <section id="about" class=" content-section text-center">
+
+
+        <div class="row aboutCarousel">
+            <div class="col-md-12">
+
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox" style="margin-top:22px">
+                        <div class="item active">
+                            <a href="{{ base.url }}/products-edibles#mintSpray"><img src="{{ base.url }}/assets/images/bhang-hompage.jpg" alt="..." class="img-responsive"></a>
+                            <div class="carousel-caption">
+                             
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="{{ base.url }}/products-edibles#chocoBars"><img src="{{ base.url }}/assets/images/about-bhang-chocolates-carousel.jpg" alt="..." class="img-responsive"></a>
+                            <div class="carousel-caption">
+                        </div>     
+                        </div>
+                        <div class="item">
+                            <a href="{{ base.url }}/products-vapes#bhangStick"><img src="{{ base.url }}/assets/images/about-bhang-sticks.jpg" alt="..." class="img-responsive"></a>
+                            <div class="carousel-caption">
+                             
+                        </div>
+                        </div>
+                       
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- End Carousel -->
+        <div class="row-fluid homeContent">
+            <div class="col-md-12 homeHeadline">
+                <div class="col-md-8 col-md-offset-2 homeHeadlineText">
+            <h2>The Bhang Triple Promise Guarantee</h2>
+        </div>
+        </div>
+       
+        <div class="col-md-12 homeHeadline2">
+        <div class="col-md-10 col-md-offset-1 tripleGuarantee">    
+            <div class="col-md-4 triple1">
+               <p>We promise to deliver to you the best tasting Medical cannabis edible products on the market.</p>
+            </div>
+            <div class="col-md-4 triple2">
+                <p>We promise to deliver the same precise amount of concentrated THC extract in every piece of cannabis chocolate, in every batch, In every season.</p>
+            </div>
+            <div class="col-md-4 triple3">
+                <p>We promise to use only state-of-the-art packaging, testing and production processes Safety, quality and consistency are our goal!!!</p>
+            </div>
+                <div class="col-md-12 homeHeadlineImage">
+                    <a href="{{ base.url }}/bhang-concentrates"><img src="{{ base.url }}/assets/images/bhang-chocolate-homepage.jpg" class="img-responsive"></a>
+                </div>
+                <div class="col-md-12 homeHeadline news">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2><a href="{{ base.url }}/assets/images/news">Latest News</a></h2>
+                    </div>
+
+                    <div class="col-md-6 latestNewsImageLeft posts">
+                       
+  <!-- {% for post in site.posts %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+      {% assign image = post.images[0] %}
+      {% include image.html image=image %}
+    </li>
+  {% endfor %}
+</ul>-->
+                     
+                      
+
+                      {% for post in site.posts limit:1 %}
+                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">  
+                        {% assign image = post.images[0] %}
+                        {% include image.html image=image %}
+                        </a>
+                        <p><a href="{{ post.url }}">{{post.title }}</p> {% endfor %}
+                    </div>
+                
+                    <div class="col-md-6 latestNewsImageRight">
+                         {% for post in site.posts limit:1 offset:1 %}
+                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">  
+                        {% assign image = post.images[0] %}
+                        {% include image.html image=image %}
+                        </a>
+                        <p><a href="{{ post.url }}">{{post.title }}</p> {% endfor %}</a>
+                    </div>
+                </div>
+                <div class="center-block">
+                <div class="col-md-12 homeHeadline">
+                    <div class="col-md-8 col-md-offset-2 discoverBhang">
+                        <h2>Bhang Products</h2>
+                    </div>
+                    <div class="col-md-4 aboutProducts">
+                        <a href="{{ base.url }}/products-vapes/#oilCarts">
+                        <img src="{{ base.url }}/assets/images/bhang-oil-carts.jpg" class="img-responsive">
+                        <p>"Pure Oil" Cartridges</p>
+                    </a>
+                    </div>
+                    <div class="col-md-4 aboutProducts">
+                        <a href="{{ base.url }}/products-edibles/#chocoBars">
+                            <img src="{{ base.url }}/assets/images/bhang-chocolate-bars.jpg" class="img-responsive">
+                        
+                        <p>Bhang Choclate Bars</p></a>
+                    </div>
+                    <div class="col-md-4 aboutProducts">
+                        <a href="{{ base.url }}/products-edibles/#mintSpray">
+                        <img src="{{ base.url }}/assets/images/bhang-mint-spray.jpg" class="img-responsive">
+                        <p>CBD &amp; THC Mint Sprays</p></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </section>
+<!--
+    <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+        
+    
+      
+      <div class="modal-body" style="padding:0;">
+        <div class="row-fluid">
+       <img src="{{ base.url }}/assets/images/bhang-splash-modal.png" class="img-responsive">
+       <div class="modalbutton"
+        <a href="http://disney.com/" class="buttonLink"><button type="button" class="btn btn-default">I'm Under 18</button></a>
+        <button type="button" class="btn btn-default buttonLink2" data-dismiss="modal">I'm Over 18</button>
+        </div>
+    </div>
+
+
+      </div>
+      
+    </div><!-- /.modal-content
+  </div><!-- /.modal-dialog
+</div><!-- /.modal -->

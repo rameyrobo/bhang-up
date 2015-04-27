@@ -1,0 +1,15 @@
+{% if site.mapping.provider %}
+    {% case site.mapping.provider %}
+        {% when "google_js" %}
+            {% include jekyll_mapping_providers/gmap_js.js %}
+        {% when "openstreetmap" %}
+            {% include jekyll_mapping_providers/openstreetmap.js %}
+    {% endcase %}
+    {% if page.mapping %}
+    {% case site.mapping.provider %}
+        {% when "google_js" %}
+        
+    {% endcase %}
+    {% endif %}
+{% endif %}
+</div>
